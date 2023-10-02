@@ -1,1 +1,1 @@
-const content = [`./src/**/*.{js,jsx,css}`];
+export const content = [`./src/**/*.{js,jsx,css}`];
