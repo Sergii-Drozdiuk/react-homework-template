@@ -3,29 +3,19 @@
 @tailwind utilities;
 
 body {
-  user-select: none;
-  color: rgba(5, 5, 5, 1);
-  font-family: Inter, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.5;
+  @apply font-sans text-base font-medium color-black select-none;
 }
 
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  @apply list-none m-0 p-0;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+  @apply block max-w-full;
 }
 
 h1,
 h2,
 p {
-  margin: 0;
-  padding: 0;
+  @apply m-0 p-0;
 }
